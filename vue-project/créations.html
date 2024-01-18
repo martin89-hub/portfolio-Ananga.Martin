@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ananga Martin - Création</title>
+
+    <link rel="stylesheet" href="./creation.css">
+    <link rel="icon" type="image/png" href="./img/developpement-dapplications.png">
+</head>
+
+<body>
+    <header>
+        <h1>Mes Créations</h1>
+        <p>Découvrez mes réalisations et projets créatifs.</p>
+    </header>
+
+    <main>
+
+        <section id="creations">
+
+            <!-- Créations avec modals -->
+
+            <div class="creation">
+                <img src="./img/Image-cahier-de-charge-Ananga-Martin_CEF_Cahier-des-charges.pdf.png" alt="prmiere page du cahier de charges" onclick="openModal('Cahier de Charges', '05/11/2023', 'Word et Excel', 'https://1drv.ms/b/s!Ah_yXAAFzijYkL9qC8c6Lzw1wN7u4w?e=zuNRrq')">
+                <h2>Cahier de Charges</h2>
+                <br>
+                <img src="./img/Capture-d-ecran-github.png" alt="dashbord du github" onclick="openModal('Dynamiser un espace commentaire', '21/11/2023', 'HTML5 et CSS3', 'https://github.com/martin89-hub')">
+                <h2>Dynamiser un espace commentaire</h2>
+        
+            </div>
+            
+        </section>
+        
+        
+        <!-- Modal dynamique -->
+        <div id="modal" class="modal">
+          
+            <div class="modal-content">
+              <span class="close" onclick="closeModal()">&times;</span>
+
+              <h2 id="modalTitle">Modal</h2>
+
+              <p>Date de création: <span id="modalDate"></span></p>
+              <p>Technologies utilisées: <span id="modalTechnologies"></span></p>
+              <a href="#" id="modalLink" target="_blank">Visiter le site</a>
+              <a href="#" id="modalRepository" target="_blank">GitHub Repository</a>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+       <!-- Footer avec liens vers les réseaux sociaux et date de mise à jour -->
+        <div id="social-media">
+    
+            <a href="https://www.linkedin.com/in/martin-ananga-379444158" target="_blank">
+            <img src="./img/linkedin-png-5849.png" alt="logo de linkedin sur fond noir">
+            </a>
+    
+            <a href="https://x.com/MartinAnanga?t=JLm0hzpuG7B3iG6jBlug9A&s=09" target="_blank">
+            <img src="./img/twitter_x_new_logo_x_rounded_icon_256078.png" alt="logo de X(ex twetter) sur fond noir">
+            </a>
+    
+            <a href="https://github.com/martin89-hub" target="_blank">
+            <img src="./img/github.png" alt="logo de github sur fond noir">
+            </a>
+  
+        </div>
+    
+        <p>Date de dernière mise à jour : <span id="lastUpdateDate"></span></p>
+    
+    </footer>
+
+    <script src="./apps.js" ></script>
+    <script src="https://unpkg.com/vue"></script>
+</body>
+</html>

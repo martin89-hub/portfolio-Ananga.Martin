@@ -1,0 +1,130 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0px;
+}
+
+header {
+    background-color: #cac6c6;
+    color: rgb(160, 132, 132);
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+#contact-options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.contact-option {
+    text-align: center;
+}
+
+.contact-option img {
+    width: 50px;
+    height: 50px;
+}
+
+main {
+    padding: 20px;
+}
+
+#contactForm {
+    max-width: 400px; /* Ajustez la largeur maximale selon vos besoins */
+    margin: 0 auto; /* Centre le formulaire horizontalement */
+    transition: background-color 0.3s ease; 
+}
+
+#contactForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#contactForm button {
+    width: 100%;
+    padding: 10px 0;
+}
+
+#contactForm button:hover {
+    background-color: #86b2e1;
+}
+
+footer {
+    background-color: #95b3f7;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+#social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centrer les éléments verticalement */
+    margin-bottom: 20px;
+}
+
+#social-media a {
+    margin: 0 15px;
+    transition: filter 0.3s;
+    display: flex;
+    align-items: center; /* Centrer les éléments verticalement */
+}
+
+#social-media img {
+    width: 30px; /* Ajustez la taille des images selon vos besoins */
+    height: 30px; /* Ajustez la taille des images selon vos besoins */
+    border-radius: 50%;
+}
+
+#social-media a:hover {
+    filter: brightness(1.5);
+}
+
+#lastUpdateDate {
+    font-weight: bold;
+    color: #dbc5c5;
+}
+
+
+header {
+    background-image: url('./img/5124556.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #b4b2b2;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+    font-size: 1.2em; /* Ajustez la taille de la police selon vos besoins */
+}
+
+header p {
+    font-size: 0.8em; /* Ajustez la taille de la police selon vos besoins */
+}
+
+/* Ajoutez ces styles pour mettre le texte du contenu en blanc */
+
+main {
+    color: rgb(101, 90, 90);
+}
+
+   

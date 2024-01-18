@@ -1,0 +1,125 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 20px;
+    background-color: bisque;
+}
+
+.creation {
+    margin-bottom: 30px;
+}
+
+.creation img {
+    width: 100%;
+    max-width: 400px; /* Ajustez la taille maximale selon vos besoins */
+    height: auto;
+    cursor: pointer;
+    transition: filter 0.3s ease; /* Animation de transition au survol */
+}
+
+.creation img:hover {
+    filter: brightness(1.2); /* Augmenter la luminosité au survol */
+}
+
+.creation h2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51, 49, 49, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #bfd5f0;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+}
+
+.modal-content a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #141516;
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: #95b3f7;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+#social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centrer les éléments verticalement */
+    margin-bottom: 20px;
+}
+
+#social-media a {
+    margin: 0 15px;
+    transition: filter 0.3s;
+    display: flex;
+    align-items: center; /* Centrer les éléments verticalement */
+}
+
+#social-media img {
+    width: 30px; /* Ajustez la taille des images selon vos besoins */
+    height: 30px; /* Ajustez la taille des images selon vos besoins */
+    border-radius: 50%;
+}
+
+#social-media a:hover {
+    filter: brightness(1.5);
+}
+
+#lastUpdateDate {
+    font-weight: bold;
+    color: #ddd;
+}
+
+
+header {
+    background-image: url('./img/systeme-html-pour-concept-site-web.jpg');
+    background-size: cover; /* Assure que l'image couvre l'en-tête */
+    background-position: center; /* Centre l'image dans l'en-tête */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}

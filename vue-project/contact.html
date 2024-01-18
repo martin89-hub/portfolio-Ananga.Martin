@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ananga Martin - Mes contacts</title>
+
+    <link rel="stylesheet" href="./contacts.css">
+    <link rel="icon" type="image/png" href="./img/developpement-dapplications.png">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Contactez-moi</h1>
+        <p>Vous pouvez me joindre via les moyens suivants :</p>
+
+        <div id="contact-options">
+            <div class="contact-option">
+                <img src="./img/gmail.png" alt="icône e-mail">
+                <p>Email : <a href="mailto:votre@email.com">martinananga@gmail.com</a></p>
+            </div>
+            <div class="contact-option">
+                <img src="./img/telephone.png" alt="icône téléphone">
+                <p>Téléphone :<a href="tel:votre@tel">+339872536</a> </p>
+            </div>
+        </div>   
+
+    </header>
+
+    <main>
+        <section id="contact">
+
+            <!-- Formulaire de contact -->
+
+            <h2>Ecrivez-moi:</h2>
+            <p>N'hésitez pas à me contacter pour toute question, proposition de collaboration ou simplement pour discuter de projets intéressants.</p>
+        
+            <form id="contactForm" onsubmit="submitForm()">
+
+                <!-- Champs du formulaire -->
+                
+              <label for="firstName">Prénom :</label>
+              <input type="text" id="firstName" name="firstName" required>
+        
+              <label for="lastName">Nom :</label>
+              <input type="text" id="lastName" name="lastName" required>
+        
+              <label for="subject">Objet :</label>
+              <input type="text" id="subject" name="subject" required>
+        
+              <label for="message">Message(max 350 mots) :</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+        
+              <button type="submit">Envoyer</button>
+            </form>
+        </section>
+        
+    </main>
+
+    <footer>
+
+        <!-- Footer avec liens vers les réseaux sociaux et date de mise à jour -->
+
+        <div id="social-media">
+    
+          <a href="https://www.linkedin.com/in/martin-ananga-379444158" target="_blank">
+            <img src="./img/linkedin-png-5849.png" alt="logo de linkedin sur fond noir">
+          </a>
+    
+          <a href="https://x.com/MartinAnanga?t=JLm0hzpuG7B3iG6jBlug9A&s=09" target="_blank">
+            <img src="./img/twitter_x_new_logo_x_rounded_icon_256078.png" alt="logo de X(ex twetter) sur fond noir">
+          </a>
+    
+          <a href="https://github.com/martin89-hub" target="_blank">
+            <img src="./img/github.png" alt="logo de github sur fond noir">
+          </a>
+    
+        </div>
+    
+        <p>Date de dernière mise à jour : <span id="lastUpdateDate"></span></p>
+    
+    </footer>
+
+    <script src="./apps.js"></script>
+</body>
+</html>

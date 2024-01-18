@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Développeur web passionné par la création d'expériences utilisateur exceptionnelles. Expert en technologies Front-End telles que Vue.js, HTML5 et CSS3. Découvrez mes projets innovants, alliant design et performance. Ouvert aux opportunités de collaboration et de projets stimulants. Contactez-moi pour discuter de vos idées et objectifs.">
+
+  <title>Ananga Martin - Portfolio</title>
+
+  <link rel="stylesheet" href="./vue-project/accueil.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.3/css/bulma.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+  <link rel="icon" type="image/png" href="./src/assets/images/developpement-dapplications.png">
+
+  <script>
+    // Inclure email et passeword au formulaire
+    const emailAddress = "${process.env.EMAIL_ADDRESS}";
+    const emailPassword = "${process.env.EMAIL_PASSWORD}";
+</script>
+
+</head>
+
+<body>
+
+  <div id="app">
+
+    <header>
+      <!-- Header avec logo et menu -->
+      <a href="#" onclick="scrollToTop()"><img id="photo" src="./src/assets/images/DIV-2025.jpg" alt="jeune homme portant un t-shirt noir"></a>
+
+      <nav>
+          <ul>
+              <li><a href="./vue-project/présentation.html">Présentation</a></li>
+              <li><a href="./vue-project/créations.html">Créations</a></li>
+              <li><a href="./vue-project/contact.html">Contacts</a></li>
+          </ul>
+      </nav>
+
+    </header>
+  
+    <main id="main-content">
+      
+      <!-- Le contenu principal du portfolio -->
+
+      <h1>Bienvenue sur Mon Portfolio</h1>
+      <br>
+      <p>Je vous invite à découvrir mes compétences, projets et informations de contacts. Utilisez la barre de navigation pour explorer différentes sections.</p>
+      
+      <br>
+        <div>
+          <h2>Compétences Clés:</h2>
+          <h3>Technologies étudiées</h3>
+        </div>
+          
+        
+
+        <div id="logos">
+          
+          <figure>
+              <img src="./src/assets/images/html-5(1).png" alt="Logo HTML sur un fond noir et blanc">
+              <figcaption>HTML</figcaption>
+          </figure>
+          <figure>
+              <img src="./src/assets/images/css-3(1).png" alt="Logo CSS sur un fond noir">
+              <figcaption>CSS</figcaption>
+          </figure>
+          <figure>
+              <img src="./src/assets/images/js(1).png" alt="Logo JavaScript sur un fond orange">
+              <figcaption>JavaScript</figcaption>
+          </figure>
+          <figure>
+              <img src="./src/assets/images/git.png" alt="Logo Git sur un fond noir">
+              <figcaption>Git</figcaption>
+          </figure>
+             
+        </div>
+       
+       
+    </main>
+  
+    <footer>
+      <!-- Footer avec liens vers les réseaux sociaux et date de mise à jour -->
+      <div id="social-media">
+
+        <a href="https://www.linkedin.com/in/martin-ananga-379444158" target="_blank">
+          <img src="./src/assets/images/linkedin-png-5849.png" alt="logo de linkedin sur fond noir">
+        </a>
+  
+        <a href="https://x.com/MartinAnanga?t=JLm0hzpuG7B3iG6jBlug9A&s=09" target="_blank">
+          <img src="./src/assets/images/twitter_x_new_logo_x_rounded_icon_256078.png" alt="logo de X(ex twetter) sur fond noir">
+        </a>
+  
+        <a href="https://github.com/martin89-hub" target="_blank">
+          <img src="./src/assets/images/github.png" alt="logo de github sur fond noir">
+          
+        </a>
+  
+      </div>
+
+      <p>Date de dernière mise à jour : <span id="lastUpdateDate"></span></p>
+
+      
+      <div id="logo-sroll"><a href="#" onclick="scrollToTop()"><img id="logo" src="./vue-project/img/Wavy_Tech-08_Single-05.jpg" alt="jeune homme portant un t-shirt noir"></a></div>
+       
+
+    </footer>
+
+    
+  </div>
+
+  <script src="https://unpkg.com/vue"></script>
+  <script src="./src/main.js"></script>
+  <script src="./src/assets/server.js"></script>
+  
+</body>
+
+</html>

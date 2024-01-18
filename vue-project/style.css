@@ -1,0 +1,91 @@
+/* style pour la page présentation*/
+
+
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #799787;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    transition: filter 0.3s;
+}
+
+.logo img:hover {
+    filter: brightness(1.5);
+}
+
+.photo p {
+    font-size: 18px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e4e1e1;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #5a5a59;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+#social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centrer les éléments verticalement */
+    margin-bottom: 20px;
+}
+
+#social-media a {
+    margin: 0 15px;
+    transition: filter 0.3s;
+    display: flex;
+    align-items: center; /* Centrer les éléments verticalement */
+}
+
+#social-media img {
+    width: 30px; /* Ajustez la taille des images selon vos besoins */
+    height: 30px; /* Ajustez la taille des images selon vos besoins */
+    border-radius: 50%;
+}
+
+#social-media a:hover {
+    filter: brightness(1.5);
+}
+
+#lastUpdateDate {
+    font-weight: bold;
+    color: #ddd;
+}
+
+
+

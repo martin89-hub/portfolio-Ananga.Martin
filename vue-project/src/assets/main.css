@@ -1,0 +1,27 @@
+/* Ajoutez ces règles CSS à votre fichier main.css */
+
+#main-content {
+  text-align: center;
+}
+
+#main-content img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Pour centrer le texte sous les images */
+#main-content p {
+  text-align: center;
+}
+
+/* Ajoutez une marge en haut pour l'espace */
+#main-content h1,
+#main-content p {
+  margin-top: 20px;
+}
+
+
+
+
